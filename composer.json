@@ -1,0 +1,21 @@
+{
+    "name": "xproapi/xproapi-php",
+    "description": "PHP client for the Xproapi X (Twitter) data API: profiles, followers, followings, tweets, search.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["xproapi", "twitter", "x", "api", "followers", "tweets"],
+    "homepage": "https://xproapi.com/docs",
+    "require": {
+        "php": ">=8.1",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xproapi\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "php tests/run.php"
+    }
+}
