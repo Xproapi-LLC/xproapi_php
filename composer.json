@@ -4,7 +4,12 @@
     "type": "library",
     "license": "MIT",
     "keywords": ["xproapi", "twitter", "x", "api", "followers", "tweets"],
-    "homepage": "https://xproapi.com/docs",
+    "homepage": "https://xproapi.com",
+    "support": {
+        "docs": "https://xproapi.com/docs/",
+        "issues": "https://github.com/xproapi/xproapi-php/issues",
+        "source": "https://github.com/xproapi/xproapi-php"
+    },
     "require": {
         "php": ">=8.1",
         "ext-curl": "*",
