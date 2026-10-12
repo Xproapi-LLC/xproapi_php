@@ -1,8 +1,26 @@
-# xproapi-php
+# Xproapi PHP SDK
 
-PHP client for the [Xproapi](https://xproapi.com/docs) X (Twitter) data API. PHP 8.1+, `ext-curl` and `ext-json`, no other dependencies.
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/xproapi/xproapi-php.svg?style=flat-square)](https://packagist.org/packages/xproapi/xproapi-php)
+[![Total Downloads](https://img.shields.io/packagist/dt/xproapi/xproapi-php.svg?style=flat-square)](https://packagist.org/packages/xproapi/xproapi-php)
+[![License](https://img.shields.io/packagist/l/xproapi/xproapi-php.svg?style=flat-square)](LICENSE.md)
+[![PHP Version Require](https://img.shields.io/packagist/dependency-v/xproapi/xproapi-php/php?style=flat-square)](composer.json)
+
+The official PHP SDK for **[Xproapi.com](https://xproapi.com)**. A lightweight, type-safe client designed to query public X (Twitter) profiles, track follower events, and detect network diffs without heavy enterprise API costs or streaming connection overhead.
+
+---
+
+### Key Capabilities
+
+- **Follower Event Tracking:** Fetch latest follower pages and compute diffs reliably.
+- **Profile & Graph Ingestion:** Access public follower and following lists as structured objects.
+- **Resilient Network Handling:** Built-in rate limit (HTTP 429) backoff, automatic retries, and strict timeouts.
+- **Framework Agnostic:** Works seamlessly in vanilla PHP, Laravel, Symfony, or background CLI workers.
+
+---
 
 ## Install
+
+Requires PHP 8.1+ with `ext-curl` and `ext-json`; no other dependencies.
 
 With Composer, from this folder (a path repository):
 
